@@ -1,78 +1,77 @@
 * {
-    background-color: #f7e9db;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  /* NAVBAR STYLING */
-  .nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-left: 12%;
-  }
-  .logo {
-    width: 150px;
-    background-color: #f7e9db;
-  }
-  .logo img {
-    max-width: 70%;
-    background-color: #f7e9db;
-    cursor: pointer;
-  }
-  .lists ul li {
-    display: inline-flex;
-  }
-  .lists ul li a {
-    text-decoration: none;
-    color: rgb(15, 1, 1);
-    font-weight: bold;
-  }
-  .btn1 {
-    background-color: #ff4066;
-    border-radius: 3rem;
-    color: white;
-    border: none;
-    padding: 7px;
-    margin-top: 10px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  .main {
-    display: flex;
-    width: 100%;
-  }
-  
-  .txt p:nth-child(3) {
-    color: #ff4066;
-  }
-  b {
-    margin: 0px;
-  }
-  .title {
-    margin: 0px;
-    font-size: 55px;
-    font-weight: 600;
-    margin-left: 20px;
-  }
-  .btn2 {
-    background-color: black;
-    color: white;
-    border-radius: 2rem;
-    padding: 7px;
-    font-weight: 700;
-    cursor: pointer;
-    border: none;
-  }
-  .imgsection {
-    width: 700px;
-    height: auto;
-  }
-  img {
-    width: inherit;
-    height: inherit;
-  }
-  
-  .bodyContainer {
-    margin-left: 10%;
-  }
-  
+  background-color: #f7e9db;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* NAVBAR STYLING */
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 12%;
+}
+.logo {
+  width: 150px;
+  background-color: #f7e9db;
+}
+.logo img {
+  max-width: 70%;
+  background-color: #f7e9db;
+  cursor: pointer;
+}
+.lists ul li {
+  display: inline-flex;
+}
+.lists ul li a {
+  text-decoration: none;
+  color: rgb(15, 1, 1);
+  font-weight: bold;
+}
+.btn1 {
+  background-color: #ff4066;
+  border-radius: 3rem;
+  color: white;
+  border: none;
+  padding: 7px;
+  margin-top: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* STYLING FOR GET READY SECTION */
+.bodyContainer {
+  margin-left: 10%;
+}
+.main {
+  display: flex;
+  width: 100%;
+}
+.txt p:nth-child(3) {
+  color: #ff4066;
+}
+b {
+  margin: 0px;
+}
+.getready {
+  margin: 0px;
+  font-size: 55px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.btn2 {
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  padding: 7px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+.imgsection {
+  width: 700px;
+  height: auto;
+}
+img {
+  width: inherit;
+  height: inherit;
+}
